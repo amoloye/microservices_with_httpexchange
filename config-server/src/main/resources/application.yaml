@@ -1,0 +1,11 @@
+server:
+  port: 8088
+
+spring:
+  profiles:
+    active: native
+
+##the active profile is set to native because we want config-server to take configuration from our application,
+##if configuration is on git, we name it as git
+
+
